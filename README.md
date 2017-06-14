@@ -1,5 +1,5 @@
 # Formalizing-Brainfuck-Isabelle
-Fibonnaci implemented in brainfuck formalized in isabelle and some other stuff 
+Fibonaci implemented in brainfuck and formalized in isabelle and some other stuff 
 
 ## Fibonacci version
 Very simple one, modulo 256
