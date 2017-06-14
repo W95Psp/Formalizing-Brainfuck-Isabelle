@@ -5,7 +5,7 @@
         <title>Interpréteur BrainFuck</title>
     </head>
     <body>
-        <h1>Interpréteur BrainFuck</h1>
+        <h1>BrainFuck interpreter</h1>
         
 		<br/>
 		<br/>
@@ -27,14 +27,14 @@
 		Enchainer les instructions automatiquement : <input type="checkbox" id='isauto' checked  onchange="showOrNotZones();"/>
 		<br/>
 		<div id='z1'>
-			Temps entre chaques instructions : <input type="text" id="vitesse" onchange="setNewTime();" value="100"/>
+			Time between instructions : <input type="text" id="vitesse" onchange="setNewTime();" value="100"/>
 		</div>
 		<div id='z2'>
-			<input type="button" onclick="execute();" value="Instruction suivante"/>
+			<input type="button" onclick="execute();" value="Next instruction"/>
 		</div>
 		<br/>
 		<br/>
-		<input type="button" onclick="treat();" value="Executer"/>
+		<input type="button" onclick="treat();" value="Execute"/>
 		<br/>
 		<br/>
         <div id="log"></div>
